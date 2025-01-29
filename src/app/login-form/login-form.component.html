@@ -1,0 +1,14 @@
+<div class="container text-center mt-5">
+    <form class="form-signin" (submit)="onLogin()">
+      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+      <label for="username" class="sr-only">Username</label>
+      <input type="text" id="username" class="form-control" placeholder="Username" name="username" required="required" autofocus="" [(ngModel)]="username">
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" class="form-control mt-2" placeholder="Password" name="password" required="required" [(ngModel)]="password">
+      <button class="btn btn-lg btn-primary btn-block mt-2" type="submit">Sign in</button>
+      <!-- <div class="text-center mt-5">
+        Don`t have an account? <a routerLink="/register">Sign Up</a> here.
+      </div> -->
+    </form>
+    </div>
+    
